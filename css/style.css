@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 /* Utilies */
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
@@ -16,6 +18,39 @@ main{
     padding: 30px;
     margin-bottom: 21px;
     border-radius: 5px;
+}
+
+/* Navbar Styles */
+.nav-bar{
+    height: 94px;
+    background-color: #12B0E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 24px;
+    color: white;
+}
+.nav-bar .logo img{
+    margin-right: 15px;
+    width: 40px;
+    height: 51px;
+}
+.menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+.menu-item a{
+    text-decoration: none;
+    color: #CAD5E2;
+    font-size: 16px;
+    margin-right: 35px;
 }
 
 /* Top Players Styles */
